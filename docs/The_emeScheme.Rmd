@@ -44,6 +44,14 @@ library(emeScheme)
 ```{css, echo=FALSE}
 /* custom.css */
 
+.title-slide.remark-slide-content:before{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content:url(https://zenodo.org/badge/DOI/10.5281/zenodo.2244999.svg);
+  height:60px;
+}
+
 .left-code {
   color: #777;
   width: 38%;
@@ -866,6 +874,7 @@ qrcode::qrcode_gen('https://exp-micro-ecol-hub.github.io/emeScheme/')
 qrcode::qrcode_gen('https://rkrug.github.io/emeScheme_Introduction/The_emeScheme.html')
 ```
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2244999.svg)](https://doi.org/10.5281/zenodo.2244999)
 
 
 
