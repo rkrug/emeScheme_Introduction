@@ -1,5 +1,5 @@
 ---
-title: "The emeScheme"
+title: "The emeScheme - an Introduction"
 subtitle: "What is it?<br/>What is it for?<br/>Why do we need it?<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
 author: "Rainer M Krug"
 date: "Group Seminar 18/12/2018<br/>(updated: `r Sys.Date()`)"
@@ -18,6 +18,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: true
+      ratio: 16:9
       navigation:
         scroll: false
         click: false
@@ -42,6 +43,13 @@ library(emeScheme)
 
 ```{css, echo=FALSE}
 /* custom.css */
+  
+.title-slide.remark-slide-content:before{
+  position: absolute;
+  content:url(logo.svg);
+  height:60px;
+  }
+
 .left-code {
   color: #777;
   width: 38%;
@@ -411,9 +419,9 @@ class: inverse, center, middle, animated, fadeIn
 ---
 class: animated, fadeIn
 ## Data Life Cylce
-
+.center[
 <img src="figs/data_life_cycle_1.svg" width="600">
-
+]
 Adapted from https://www.dataone.org/data-life-cycle
 
 ???
@@ -442,10 +450,9 @@ class: animated, fadeIn
 
 ## Data Life Cylce
 
-
-
+.center[
 <img src="figs/data_life_cycle_2.svg" width="600">
-
+]
 
 Adapted from https://www.dataone.org/data-life-cycle
 
@@ -849,25 +856,22 @@ background-size: contain
 class: animated, fadeIn, center, middle
 
 **Website** of the **emeScheme**: 
+
 [https://exp-micro-ecol-hub.github.io/emeScheme/](https://exp-micro-ecol-hub.github.io/emeScheme/)
 
-```{r, fig.height=2, fig.width=2, echo = FALSE}
+```{r qr_emeShemeSite, fig.height=2, fig.width=2, echo = FALSE}
 qrcode::qrcode_gen('https://exp-micro-ecol-hub.github.io/emeScheme/')
 ```
 
-**Github** site of the **emeScheme**: 
-[https://github.com/Exp-Micro-Ecol-Hub/emeScheme](https://github.com/Exp-Micro-Ecol-Hub/emeScheme)
 
-```{r, fig.height=2, fig.width=2, echo = FALSE}
-qrcode::qrcode_gen('https://github.com/Exp-Micro-Ecol-Hub/emeScheme')
+**Presentation** at: 
+
+[https://rkrug.github.io/emeScheme_Introduction/The_emeScheme.html](https://rkrug.github.io/emeScheme_Introduction/The_emeScheme.html)
+
+```{r qr_presentation, fig.height=2, fig.width=2, echo = FALSE}
+qrcode::qrcode_gen('https://rkrug.github.io/emeScheme_Introduction/The_emeScheme.html')
 ```
 
-**Google Sheet** containing the **emeScheme**: 
-[https://docs.google.com/spreadsheets/d/1OAyRM1jGL5Vho-YfPffePhwGpQtaBUeTPJV6P98f0Bc](https://docs.google.com/spreadsheets/d/1OAyRM1jGL5Vho-YfPffePhwGpQtaBUeTPJV6P98f0Bc)
-
-```{r, fig.height=2, fig.width=2, echo = FALSE}
-qrcode::qrcode_gen('https://docs.google.com/spreadsheets/d/1OAyRM1jGL5Vho-YfPffePhwGpQtaBUeTPJV6P98f0Bc')
-```
 
 
 
