@@ -814,7 +814,7 @@ widgetframe::frameableWidget()
 
 ---
 class: animated, fadeIn
-background-image: url("`r knitr::fig_chunk("data_layout_6", "png")`")
+background-image: url(figs/data_layout_6.svg)
 background-position: center
 background-size: contain
 
