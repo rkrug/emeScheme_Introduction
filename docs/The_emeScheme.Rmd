@@ -18,7 +18,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: true
-      ratio: 16:9
+      # ratio: 16:9
       navigation:
         scroll: false
         click: false
